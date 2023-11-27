@@ -58,7 +58,7 @@
 	{#each Profile_Menu as menuItem}
 		<button
 			type="button"
-			class="flex justify-between w-full py-1.5 rounded-md btn hover:bg-gray-300"
+			class="flex justify-between w-full py-1.5 rounded-md btn hover:bg-surface-500"
 		>
 			<span class="text-sm">{menuItem.title}</span>
 			<svelte:component this={menuItem.icon} />
